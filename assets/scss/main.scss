@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "root.scss";
+@import "elements.scss";
+@import "responsive.scss";
+
+body,
+html {
+    font-family: "Outfit", sans-serif;
+    transition: all .5s;
+}
+.login {
+    &__bg {
+        background: $main__gradient;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    &__form {
+        padding: 40px 40px;
+        background: #fff;
+        border-radius: 24px;
+        width: 100%;
+    }
+}
+.form {
+    &__input {
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 8px;
+        margin: 14px 0px;
+        transition: all 0.3s;
+        &:hover {
+            border: 1px solid $green;
+        }
+        input {
+            border: 0px none;
+            outline: 0px none;
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.outline__btn {
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: 1px solid #f5f5f5;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.outline__btn:hover {
+  background-color: #fff;
+  color: #15CE73;
+}
+
+.main__btn {
+  background: #15CE73;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: 0px none;
+  outline: 0px none;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0px 5px 13px 2px rgba(0, 0, 0, 0.28);
+}
+.main__btn:hover {
+  opacity: 0.5;
+}
+
+.form__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 24px;
+  color: #404040;
+}
+
+.green__link {
+  color: #15CE73;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+body,
+html {
+  font-family: "Outfit", sans-serif;
+  transition: all 0.5s;
+}
+
+.login__bg {
+  background: linear-gradient(295.03deg, rgba(21, 206, 115, 0.5) 52.72%, #15CE73 97.81%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.login__form {
+  padding: 40px 40px;
+  background: #fff;
+  border-radius: 24px;
+  width: 100%;
+}
+
+.form__input {
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 14px 0px;
+  transition: all 0.3s;
+}
+.form__input:hover {
+  border: 1px solid #15CE73;
+}
+.form__input input {
+  border: 0px none;
+  outline: 0px none;
+  font-size: 16px;
+}
