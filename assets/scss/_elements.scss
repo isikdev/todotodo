@@ -14,6 +14,14 @@
         color: $green;
     }
 }
+.balance__outline {
+    border: 1px solid $green;
+    color: $green;
+    &:hover {
+        background-color: #fff;
+        color: $green;
+    }
+}
 .main__btn {
     background: $green;
     color: #fff;
@@ -54,4 +62,24 @@
     line-height: 28px;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.account__input {
+    padding: 20px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    border: 2px solid #dddbe3;
+    border-radius: 8px;
+    outline: 0px none;
+    transition: all .3s;
+    width: 100%;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    &:hover {
+        border: 2px solid $blue;
+    }
+    &:focus {
+        border: 2px solid $blue;
+    }
 }

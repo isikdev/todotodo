@@ -16,6 +16,15 @@
   color: #15CE73;
 }
 
+.balance__outline {
+  border: 1px solid #15CE73;
+  color: #15CE73;
+}
+.balance__outline:hover {
+  background-color: #fff;
+  color: #15CE73;
+}
+
 .main__btn {
   background: #15CE73;
   color: #fff;
@@ -58,10 +67,35 @@
   text-decoration: none;
 }
 
+.account__input {
+  padding: 20px 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  border: 2px solid #dddbe3;
+  border-radius: 8px;
+  outline: 0px none;
+  transition: all 0.3s;
+  width: 100%;
+  margin-bottom: 12px;
+  margin-left: 10px;
+}
+.account__input:hover {
+  border: 2px solid #080696;
+}
+.account__input:focus {
+  border: 2px solid #080696;
+}
+
 body,
 html {
   font-family: "Outfit", sans-serif;
   transition: all 0.5s;
+  position: relative;
+}
+
+.wrapper__provider {
+  background: #FAFCFF;
 }
 
 .login__bg {
@@ -91,4 +125,150 @@ html {
   border: 0px none;
   outline: 0px none;
   font-size: 16px;
+}
+
+.nav__link-item {
+  margin-top: 11px;
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+}
+.nav__link-item:hover {
+  background: linear-gradient(90deg, rgba(8, 6, 150, 0.18) 0%, rgba(139, 102, 244, 0) 100%);
+}
+.nav__link-item a {
+  color: #8A8A8A;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.12px;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.nav__link-item a:hover {
+  color: #080696;
+}
+.nav__link-item-active {
+  background: linear-gradient(90deg, rgba(8, 6, 150, 0.18) 0%, rgba(139, 102, 244, 0) 100%);
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  border-left: 3px solid #080696;
+}
+.nav__link-item-active a {
+  font-size: 12px;
+  line-height: 15.12px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #080696;
+  margin-left: 10px;
+}
+
+.logout {
+  margin-top: 256px;
+}
+.logout a {
+  margin-left: 10px;
+}
+
+.navbar {
+  position: fixed;
+}
+.navbar__brand {
+  margin-bottom: 11px;
+  padding: 0px 31px;
+}
+.navbar__content {
+  margin-top: 51px;
+}
+.navbar__content p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: rgba(15, 10, 28, 0.5019607843);
+  padding: 0px 31px;
+  margin: 21px 0px 16px 0px;
+}
+.navbar__links {
+  padding: 0px;
+}
+.navbar__links nav {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.navbar__links nav ul {
+  padding-left: 0;
+}
+.navbar__links nav ul li {
+  list-style: none;
+}
+
+.profile__company {
+  max-width: 100%;
+  background-image: url("/assets/img/pana.svg");
+  background-size: 313px 218px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.profile__content {
+  margin-top: 51px;
+}
+.profile__navbar {
+  background: #F8F7FC;
+  padding: 0px;
+}
+.profile__nav-logo-title {
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.profile__nav-title h1 {
+  text-align: center;
+  color: #080696;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.profile__forms {
+  margin: 95px 53px;
+  max-width: 713px;
+}
+
+.row {
+  margin-left: 0;
+}
+
+.form__btn {
+  padding: 10px 120px;
+}
+
+.balance__company {
+  max-width: 100%;
+}
+.balance__card {
+  padding: 38px 36px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 54px 0px rgba(0, 0, 0, 0.031372549);
+  max-width: 538px;
+  margin: 67px 51px;
+}
+.balance__nav-title h1 {
+  margin-left: 10px;
+}
+.balance__accessible-item {
+  margin: 36px 0px;
+}
+.balance__accessible-item h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+}
+.balance__card-pd {
+  margin-left: 51px;
+}
+.balance__control-items .main__btn {
+  margin-left: 56px;
+  padding: 16px 26px;
+}
+.balance__btn {
+  padding: 16px 26px;
 }

@@ -3,10 +3,17 @@
 @import "elements.scss";
 @import "responsive.scss";
 
+// * {
+//     border: 1px solid red;
+// }
 body,
 html {
     font-family: "Outfit", sans-serif;
-    transition: all .5s;
+    transition: all 0.5s;
+    position: relative;
+}
+.wrapper__provider {
+    background: #FAFCFF;
 }
 .login {
     &__bg {
@@ -37,5 +44,156 @@ html {
             outline: 0px none;
             font-size: 16px;
         }
+    }
+}
+.nav {
+    &__link-item {
+        margin-top: 11px;
+        padding: 10px 24px;
+        display: flex;
+        align-items: center;
+        &:hover {
+            background: $blue__gradient;
+        }
+        a {
+            color: $gray;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15.12px;
+            margin-left: 10px;
+            text-decoration: none;
+            transition: all 0.3s;
+            &:hover {
+                color: $blue;
+            }
+        }
+    }
+    &__link-item-active {
+        background: $blue__gradient;
+        padding: 10px 24px;
+        display: flex;
+        align-items: center;
+        border-left: 3px solid $blue;
+        a {
+            font-size: 12px;
+            line-height: 15.12px;
+            font-weight: 700;
+            text-decoration: none;
+            color: $blue;
+            margin-left: 10px;
+        }
+    }
+}
+.logout {
+    margin-top: 256px;
+    a {
+        margin-left: 10px;
+    }
+}
+.navbar {
+    position: fixed;
+    &__brand {
+        margin-bottom: 11px;
+        padding: 0px 31px;
+    }
+    &__content {
+        margin-top: 51px;
+        p {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #0f0a1c80;
+            padding: 0px 31px;
+            margin: 21px 0px 16px 0px;
+        }
+    }
+    &__links {
+        padding: 0px;
+        nav {
+            margin-left: 0px;
+            padding-left: 0px;
+            ul {
+                padding-left: 0;
+                li {
+                    list-style: none;
+                }
+            }
+        }
+    }
+}
+.profile {
+    &__company {
+        max-width: 100%;
+        background-image: url("/assets/img/pana.svg");
+        background-size: 313px 218px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+    &__content {
+        margin-top: 51px;
+    }
+    &__navbar {
+        background: $milk;
+        padding: 0px;
+    }
+    &__nav-logo-title {
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+    &__nav-title {
+        h1 {
+            text-align: center;
+            color: $blue;
+            font-weight: 700;
+            margin-left: 10px;
+        }
+    }
+    &__forms {
+        margin: 95px 53px;
+        max-width: 713px;
+    }
+}
+.row {
+    margin-left: 0;
+}
+.form__btn {
+    padding: 10px 120px;
+}
+.balance {
+    &__company {
+        max-width: 100%;
+    }
+    &__card {
+        padding: 38px 36px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 54px 0px #00000008;
+        max-width: 538px;
+        margin: 67px 51px;
+    }
+    &__nav-title {
+        h1 {
+            margin-left: 10px;
+        }
+    }
+    &__accessible-item {
+        margin: 36px 0px;
+        h1 {
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 50px;
+        }
+    }
+    &__card-pd {
+        margin-left: 51px;
+    }
+    &__control-items {
+        .main__btn {
+            margin-left: 56px;
+            padding: 16px 26px;
+        }
+    }
+    &__btn {
+        padding: 16px 26px;
     }
 }
