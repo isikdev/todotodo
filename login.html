@@ -74,8 +74,8 @@
                         <div class="nav__brand">
                             <img src="./assets/img/logo.svg" alt="logo">
                         </div>
-                        <div class="nav__links">
-                            <a href="#"><button class="main__btn">Войти</button></a>
+                        <div class="nav__links ">
+                            <a href="#"><button class="login__btn main__btn">Войти</button></a>
                             <a href="#"><button class="outline__btn">Зарегистрироваться</button></a>
                         </div>
                     </div>
@@ -84,34 +84,36 @@
                             <img src="./assets/img/hired.svg" alt="hired">
                         </div>
                         <div class="login__form">
-                            <h1 class="form__title">Войти</h1>
-                            <form class="form" action="#">
-                                <div class="form__input">
-                                    <img src="./assets/img/ico/email.svg" alt="email">
-                                    <input type="email" placeholder="email address" required>
-                                </div>
-                                <div class="form__input">
-                                    <img src="./assets/img/ico/password.svg" alt="password">
-                                    <input type="password" placeholder="password" required>
-                                </div>
-                                <div class="form__recovery d-flex justify-content-between">
-                                    <div class="checkbox">
-                                        <label class="custom-checkbox">
-                                            <input type="checkbox" name="color-1" value="indigo">
-                                            <span>Запомнить меня</span>
-                                        </label>
+                            <div class="login__form-wrapper">
+                                <h1 class="form__title">Войти</h1>
+                                <form class="form" action="#">
+                                    <div class="form__input">
+                                        <img src="./assets/img/ico/email.svg" alt="email">
+                                        <input type="email" placeholder="email address" required>
                                     </div>
-                                    <a class="green__link" href="#">Забыли пароль? </a>
-                                </div>
-                                <button class="main__btn w-100 mt-3 mb-3">Войти</button>
-                                <div class="form__agent d-flex flex-column">
-                                    <a href="#" class="link text-center">Пользовательское соглашение</a>
-                                    <div class="form__agent-reg d-flex justify-content-between mt-3">
-                                        <p>Еще нет аккаунта?</p>
-                                        <a class="green__link" href="#">Зарегистрироваться</a>
+                                    <div class="form__input">
+                                        <img src="./assets/img/ico/password.svg" alt="password">
+                                        <input type="password" placeholder="password" required>
                                     </div>
-                                </div>
-                            </form>
+                                    <div class="form__recovery d-flex justify-content-between">
+                                        <div class="checkbox">
+                                            <label class="custom-checkbox">
+                                                <input type="checkbox" name="color-1" value="indigo">
+                                                <span>Запомнить меня</span>
+                                            </label>
+                                        </div>
+                                        <a class="green__link" href="#">Забыли пароль? </a>
+                                    </div>
+                                    <button class="main__btn w-100 mt-3 mb-3">Войти</button>
+                                    <div class="form__agent d-flex flex-column">
+                                        <a href="#" class="form__agent-support link text-center">Пользовательское соглашение</a>
+                                        <div class="form__agent-reg d-flex justify-content-between mt-3">
+                                            <p>Еще нет аккаунта?</p>
+                                            <a class="green__link" href="#">Зарегистрироваться</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
