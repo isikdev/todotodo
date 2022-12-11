@@ -609,3 +609,7 @@ html {
 .process__file {
   color: #080696 !important;
 }
+
+.ms-select-all {
+  display: none;
+}
