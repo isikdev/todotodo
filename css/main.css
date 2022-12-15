@@ -545,6 +545,112 @@ html {
   margin: 95px 53px;
   max-width: 713px;
 }
+.profile__card {
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.0509803922);
+  max-width: 700px;
+  width: 100%;
+  padding: 16px;
+  margin-left: 64px;
+  border-radius: 20px;
+}
+.profile__card p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+}
+.profile__card-info {
+  display: flex;
+  margin: 24px 0;
+}
+.profile__card-info:nth-child(1) {
+  margin: 0px 0px;
+}
+.profile__card-info h1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.profile__card-info p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 10px;
+}
+.profile__card-info img {
+  width: 24px;
+  height: 24px;
+}
+.profile__card-info a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #080696;
+}
+.profile__card-employe h1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.profile__card-employe p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.profile__card-info-wrapper {
+  display: flex;
+}
+.profile__card-info-wrapper img {
+  width: 24px;
+  height: 24px;
+}
+.profile__card-info-wrapper p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+}
+.profile__card-email {
+  margin-left: 29px;
+}
+.profile__card-email p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.profile__forms-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+.profile__diler-card {
+  padding: 32px;
+  margin: 32px 0;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.0588235294);
+  background: #fff;
+  border-radius: 8px;
+}
+.profile__diler-card:nth-child(1) {
+  margin: 0 0;
+}
+.profile__diler-title-item {
+  display: flex;
+}
+.profile__diler-name {
+  margin-left: 14px;
+}
+.profile__diler-name a {
+  text-decoration: none;
+  color: #15CE73;
+  font-weight: 500;
+}
+.profile__diler-rew {
+  display: flex;
+}
+.profile__diler-rew-text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 8px;
+}
 
 .row {
   margin-left: 0;

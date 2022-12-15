@@ -256,6 +256,116 @@ html {
         margin: 95px 53px;
         max-width: 713px;
     }
+    &__card {
+        box-shadow: 0px 4px 50px 0px #0000000d;
+        max-width: 700px;
+        width: 100%;
+        padding: 16px;
+        margin-left: 64px;
+        border-radius: 20px;
+        p {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 23px;
+        }
+    }
+    &__card-info {
+        display: flex;
+        margin: 24px 0;
+        &:nth-child(1) {
+            margin: 0px 0px;
+        }
+        h1 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 25px;
+        }
+        p {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 25px;
+            margin-left: 10px;
+        }
+        img {
+            width: 24px;
+            height: 24px;
+        }
+        a {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 25px;
+            color: $blue;
+        }
+    }
+    &__card-employe {
+        h1 {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        p {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 25px;
+        }
+    }
+    &__card-info-wrapper {
+        display: flex;
+        img {
+            width: 24px;
+            height: 24px;
+        }
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 23px;
+        }
+    }
+    &__card-email {
+        margin-left: 29px;
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+    &__forms-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px 0;
+    }
+    &__diler-card {
+        padding: 32px;
+        margin: 32px 0;
+        box-shadow: 0px 4px 50px 0px #0000000f;
+        background: #fff;
+        border-radius: 8px;
+        &:nth-child(1) {
+            margin: 0 0;
+        }
+    }
+    &__diler-title-item {
+        display: flex;
+    }
+    &__diler-name {
+        margin-left: 14px;
+        a {
+            text-decoration: none;
+            color: $green;
+            font-weight: 500;
+        }
+    }
+    &__diler-rew {
+        display: flex;
+    }
+    &__diler-rew-text {
+        p {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            margin-left: 8px;
+        }
+    }
 }
 .row {
     margin-left: 0;
