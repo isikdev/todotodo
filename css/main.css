@@ -90,11 +90,56 @@
 }
 
 .gray__text {
-  color: #9DAEB7;
+  color: #9daeb7;
 }
 
 .blue__text {
   color: #080696;
+}
+
+.call__input {
+  max-width: 100px;
+  border: 2px solid #15CE73;
+  border-radius: 8px;
+  text-align: center;
+  padding: 3px 10px;
+  transition: all 0.3s;
+}
+.call__input:hover {
+  border: 2px solid #15CE73;
+}
+.call__input:focus {
+  border: 2px solid #15CE73;
+}
+.call__input:active {
+  border: 2px solid #15CE73;
+}
+
+#comment {
+  padding: 20px 30px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 50px;
+  width: 90%;
+  border-radius: 8px;
+  margin: 24px auto;
+  box-shadow: 0px 4px 54px 0px rgba(0, 0, 0, 0.031372549);
+  transition: all 0.1s;
+  border: 1px solid #fff;
+  resize: none;
+}
+#comment:hover {
+  border: 1px solid #15CE73;
+  outline: 1px solid #15CE73;
+}
+#comment:focus {
+  border: 1px solid #15CE73;
+  outline: 1px solid #15CE73;
+}
+#comment:active {
+  border: 1px solid #15CE73;
+  outline: 1px solid #15CE73;
 }
 
 .response__wrapper {
@@ -328,7 +373,7 @@ html {
 }
 .form__upload-item {
   margin: 0 auto;
-  background: #F7F8F9;
+  background: #f7f8f9;
   width: 100%;
   border-radius: 8px;
   margin-bottom: 12px;
@@ -741,4 +786,37 @@ html {
 
 .ms-select-all {
   display: none;
+}
+
+.call__attached {
+  margin: 40px auto;
+  box-shadow: 0px 4px 54px 0px rgba(0, 0, 0, 0.12);
+  width: 90%;
+  padding: 24px 40px;
+  border-radius: 12px;
+}
+.call__attached h1 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.call__attached a {
+  color: #080696;
+  text-decoration: none;
+  font-weight: 500;
+}
+.call__inputs form {
+  display: flex;
+  flex-direction: column;
+}
+.call__upload {
+  margin-left: 60px;
+}
+.call__upload-delete a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #080696;
+}
+.call__send button {
+  padding: 10px 45px;
+  font-size: 16px;
 }

@@ -72,7 +72,7 @@
     border: 2px solid #dddbe3;
     border-radius: 8px;
     outline: 0px none;
-    transition: all .3s;
+    transition: all 0.3s;
     width: 100%;
     margin-bottom: 12px;
     margin-left: 10px;
@@ -85,8 +85,52 @@
 }
 
 .gray__text {
-    color: #9DAEB7;
+    color: #9daeb7;
 }
 .blue__text {
     color: $blue;
+}
+
+.call__input {
+    max-width: 100px;
+    border: 2px solid $green;
+    border-radius: 8px;
+    text-align: center;
+    padding: 3px 10px;
+    transition: all 0.3s;
+    &:hover {
+        border: 2px solid $green;
+    }
+    &:focus {
+        border: 2px solid $green;
+    }
+    &:active {
+        border: 2px solid $green;
+    }
+}
+#comment {
+    padding: 20px 30px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 50px;
+    width: 90%;
+    border-radius: 8px;
+    margin: 24px auto;
+    box-shadow: 0px 4px 54px 0px #00000008;
+    transition: all 0.1s;
+    border: 1px solid #fff;
+    resize: none;
+    &:hover {
+        border: 1px solid $green;
+        outline: 1px solid $green;
+    }
+    &:focus {
+        border: 1px solid $green;
+        outline: 1px solid $green;
+    }
+    &:active {
+        border: 1px solid $green;
+        outline: 1px solid $green;
+    }
 }
