@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900");
 @import "root.scss";
 @import "elements.scss";
 @import "responsive.scss";
@@ -29,7 +31,10 @@ html {
         background: $main__gradient;
         background-repeat: no-repeat;
         background-size: cover;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
+        max-height: 150vh;
+        min-height: 100vh;
+        height: 100%;
     }
     &__form {
         padding: 40px 40px;
@@ -43,10 +48,11 @@ html {
         img {
             max-width: 616px;
             width: 100%;
+            object-fit: cover;
         }
     }
     &__forms {
-        margin-top: 54px;
+        margin: 54px auto;
     }
 }
 .form {
