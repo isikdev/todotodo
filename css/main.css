@@ -297,6 +297,17 @@
     display: none;
   }
 }
+::-webkit-scrollbar {
+  background-color: #fff;
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #15CE73;
+  border-radius: 8px;
+  width: 14px;
+}
+
 body,
 html {
   font-family: "Outfit", sans-serif;
@@ -925,4 +936,111 @@ html {
 .call__send button {
   padding: 10px 45px;
   font-size: 16px;
+}
+
+.new__order-forms {
+  max-width: 747px;
+  margin-left: 60px;
+}
+
+.order__upload-tab {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 48px 0px rgba(25, 39, 89, 0.0588235294);
+  display: flex;
+  justify-content: center;
+  padding: 16px 254px;
+}
+.order__upload-btn {
+  background: #f7f9fb;
+  padding: 14px 15px;
+  border-radius: 8px;
+}
+.order__upload {
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  background: transparent;
+  padding: 5px 10px;
+}
+.order__active {
+  color: #15CE73;
+  border: 1px solid #15CE73;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+.order__uploads {
+  background: #f7f9fb;
+}
+.order__upload-wrapper {
+  border: 2px dotted #e2e6ea;
+  border-radius: 10px;
+  padding: 70px 0;
+  padding: 40px 45px;
+}
+.order__upload-wrapper h1 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #8D8F97;
+}
+.order__upload-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 10px;
+  border-top: 1px solid #EBEFF2;
+  border-bottom: 1px solid #EBEFF2;
+}
+.order__upload-name {
+  display: flex;
+}
+.order__upload-intro {
+  margin-left: 10px;
+}
+.order__upload-intro a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+.order__upload-size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order__upload-size-item {
+  display: flex;
+  align-items: center;
+}
+.order__upload-size-item p {
+  border: 1px solid #CDD3D8;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.order__upload-size-item button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order__upload-height {
+  max-height: 250px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.wrapper .active {
+  color: #15CE73;
+  border: 1px solid #15CE73;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.order__bg {
+  position: absolute;
+  bottom: 1%;
+  right: 3%;
 }

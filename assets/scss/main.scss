@@ -8,6 +8,15 @@
 // * {
 //     border: 1px solid red;
 // }
+::-webkit-scrollbar {
+    background-color: #fff;
+    width: 14px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $green;
+    border-radius: 8px;
+    width: 14px;
+}
 body,
 html {
     font-family: "Outfit", sans-serif;
@@ -661,4 +670,113 @@ html {
             font-size: 16px;
         }
     }
+}
+.new {
+    &__order-forms {
+        max-width: 747px;
+        margin-left: 60px;
+    }
+}
+.order {
+    &__upload-tab {
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0px 0px 48px 0px #1927590f;
+        display: flex;
+        justify-content: center;
+        padding: 16px 254px;
+    }
+    &__upload-btn {
+        background: #f7f9fb;
+        padding: 14px 15px;
+        border-radius: 8px;
+    }
+    &__upload {
+        border: 0;
+        outline: 0;
+        font-weight: 600;
+        background: transparent;
+        padding: 5px 10px;
+    }
+    &__active {
+        color: $green;
+        border: 1px solid $green;
+        border-radius: 8px;
+        padding: 5px 10px;
+    }
+    &__uploads {
+        background: #f7f9fb;
+    }
+    &__upload-wrapper {
+        border: 2px dotted #e2e6ea;
+        border-radius: 10px;
+        padding: 70px 0;
+        padding: 40px 45px;
+        h1 {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            text-align: center;
+            color: #8D8F97;
+        }
+    }
+    &__upload-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 10px;
+        border-top: 1px solid #EBEFF2;
+        border-bottom: 1px solid #EBEFF2;
+    }
+    &__upload-name {
+        display: flex;
+    }
+    &__upload-intro {
+        margin-left: 10px;
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #000;
+        }
+    }
+    &__upload-size {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__upload-size-item {
+        display: flex;
+        align-items: center;
+        p {
+            border: 1px solid #CDD3D8;
+            border-radius: 3px;
+            padding: 5px;
+            margin-top: 10px;
+        }
+        button {
+            background: transparent;
+            border: 0;
+            outline: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &__upload-height {
+        max-height: 250px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+.wrapper {
+    .active {
+        color: $green;
+        border: 1px solid $green;
+        border-radius: 8px;
+        padding: 5px 10px;
+    }
+}
+.order__bg {
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
 }
