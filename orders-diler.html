@@ -12,6 +12,55 @@
 
 <body>
     <div class="wrapper__provider">
+        <div class="popup-fade" id="open__modal">
+            <div class="popup">
+                <h3>Оцените работу поставщика</h3>
+                <h1>ДомКом</h1>
+                <div class="popup-rating">
+                    <div class="rating-text">
+                        <p>Качество продукции</p>
+                    </div>
+                    <div class="rating-mini">
+                        <span class="active"></span>	
+                        <span class="active"></span>    
+                        <span class="active"></span>  
+                        <span class="active"></span>    
+                        <span class="active"></span>
+                    </div>                    
+                </div>
+                <div class="popup-rating">
+                    <div class="rating-text">
+                        <p>Качество доставки</p>
+                    </div>
+                    <div class="rating-mini">
+                        <span class="active"></span>	
+                        <span class="active"></span>    
+                        <span class="active"></span>  
+                        <span></span>    
+                        <span></span>
+                    </div>                    
+                </div>
+                <div class="popup-rating">
+                    <div class="rating-text">
+                        <p>Лояльность поставщика</p>
+                    </div>
+                    <div class="rating-mini">
+                        <span class="active"></span>	
+                        <span class="active"></span>    
+                        <span></span>  
+                        <span></span>    
+                        <span></span>
+                    </div>                    
+                </div>
+                <button id="next__modal" class="btn main__btn rating__btn">Оставить отзыв</button>
+            </div>		
+        </div>
+        <div class="popup-fade" id="send__modal">
+            <div class="popup">
+                <h3>Отзыв отправлен</h3>
+                <img src="./assets/img/send.svg" alt="send">
+                <button id="close__modal" class="btn main__btn rating__btn">Закрыть</button>
+            </div>
         <section class="balance__company row">
             <div class="profile__navbar col-xl-2">
                 <div class="navbar__content">
@@ -82,7 +131,7 @@
                     <div class="address__table-comment d-flex w-100">
                         <p class="comment__item gray__text">Комментарий</p>
                         <div>
-                            <textarea cols="10" disabled rows="2"></textarea>
+                            <textarea class="textarea__comment" cols="10" disabled rows="2"></textarea>
                         </div>
                         <p class="commodit__item">Замерник</p>
                         <a href="#">КП.jpeg</a>
