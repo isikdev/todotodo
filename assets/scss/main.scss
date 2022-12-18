@@ -714,6 +714,7 @@ html {
         border-radius: 10px;
         padding: 70px 0;
         padding: 40px 45px;
+        position: relative;
         h1 {
             font-size: 14px;
             font-weight: 400;
@@ -784,8 +785,14 @@ html {
     right: 3%;
 }
 #myfile {
-    display: none;
+    display: block;
     cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
 }
 textarea {
     resize: none;
@@ -878,5 +885,12 @@ textarea {
     &__btn {
         padding: 10px 35px;
         font-size: 16px;
+    }
+}
+.archive__ico {
+    svg {
+        path {
+            stroke: $blue;
+        }
     }
 }
