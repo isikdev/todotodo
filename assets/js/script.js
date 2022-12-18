@@ -16,10 +16,6 @@ $(".wrapper .tab").click(function () {
     $(".tab_item").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
-let uploadFile = $(".upload__file")
-uploadFile.click(function () {
-    $("input[type='file'").trigger('click');
-});
 
 $(".process__table-btn").click(function(){
     modal.show(300)

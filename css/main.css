@@ -152,6 +152,7 @@
 
 .response__wrapper {
   display: none;
+  padding: 50px 0;
 }
 .response__wrapper .mb__info-block {
   background-image: url("../img/elements.svg");
@@ -162,6 +163,9 @@
 .response__wrapper .mb__navbar {
   margin-top: 30px;
   padding: 0 30px;
+}
+.response__wrapper .mb__nav-logo img {
+  width: 40%;
 }
 .response__wrapper .mb__intro {
   padding: 0 30px;
@@ -283,6 +287,9 @@
   margin: 32px 0;
   padding: 0 30px;
   background-color: #fff;
+}
+.response__wrapper .mb__footer-intro img {
+  width: 40%;
 }
 .response__wrapper .mb__footer-social {
   margin-top: 32px;
