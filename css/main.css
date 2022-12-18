@@ -98,13 +98,12 @@
 }
 
 .call__input {
-  max-width: 100px;
+  max-width: 90px;
   border: 2px solid #15CE73;
   border-radius: 8px;
   text-align: center;
   padding: 3px 10px;
   transition: all 0.3s;
-  margin-left: 50px;
 }
 .call__input:hover {
   border: 2px solid #15CE73;
@@ -556,9 +555,6 @@ html {
   color: #080696;
   font-weight: 700;
   margin-left: 10px;
-}
-.profile__nav {
-  max-width: 1130px;
 }
 .profile__forms {
   margin: 95px 53px;
