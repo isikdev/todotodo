@@ -2,6 +2,7 @@ let modal = $("#open__modal");
 let sendModal = $("#send__modal")
 let btnModalHide = $("#next__modal");
 let closeModal = $("#close__modal")
+let profileModal = $(".popup-profile-page")
 
 $(document).ready(function () {
     $('#accordeon .acc__head').on('click', f_acc);
@@ -17,13 +18,13 @@ $(".wrapper .tab").click(function () {
 }).eq(0).addClass("active");
 
 
-$(".process__table-btn").click(function(){
+$(".process__table-btn").click(function () {
     modal.show(300)
 })
-btnModalHide.click(function(){
+btnModalHide.click(function () {
     modal.hide(300)
     sendModal.show(300)
 })
-closeModal.click(function(){
+closeModal.click(function () {
     sendModal.hide(300)
 })
